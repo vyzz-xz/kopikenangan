@@ -27,7 +27,7 @@ export default function Preloader() {
                     animate={{ y: 0, transition: { duration: 0.8, delay: 0.2, ease: [0.76, 0, 0.24, 1] } }}
                     className="text-5xl md:text-9xl font-bold tracking-tighter"
                 >
-                    Kopi Kenangan
+                    Kopi Kenangan...
                 </motion.h1>
             </div>
         </motion.div>

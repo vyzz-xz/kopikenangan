@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
     <footer className="bg-[#1a1110] text-[#f4eec7] py-20 px-8">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+      <div className="max-w-8xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
         <div className="max-w-md">
-            <h2 className="text-4xl md:text-8xl font-bold tracking-tighter mb-8 text-white">Kopi Kenangan</h2>
-            <p className="text-sm md:text-xl opacity-80 text-white">
+            <h2 className="text-4xl md:text-6xl font-bold tracking-tighter mb-8 text-white">Kopi Kenangan</h2>
+            <p className="text-sm md:text-lg opacity-80 text-white">
                 Mengangkat kopi menjadi sebuah karya seni. Bersumber secara bertanggung jawab, disangrai dengan sepenuh hati, disajikan dengan rasa bangga.
             </p>
         </div>
@@ -29,7 +29,7 @@ export default function Footer() {
             </div>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto mt-20 border-t border-[#c29e75]/20 pt-8 flex justify-between text-xs md:text-sm text-white/50">
+      <div className="max-w-8xl mx-auto mt-20 border-t border-[#c29e75]/20 pt-8 flex justify-between text-xs md:text-sm text-white/50">
          <p>© 2026 Kopi Kenangan. All rights reserved.</p>
          <p>Designed by Muhamad Hafiz</p>
       </div>

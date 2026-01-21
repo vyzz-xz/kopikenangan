@@ -63,13 +63,13 @@ export default function Navbar() {
                 ))}
              </nav>
              
-             <div className="absolute bottom-10 w-full px-10 flex justify-between text-lg font-bold text-white">
+             <div className="absolute bottom-10 w-full px-10 flex justify-between text-lg cursor-pointer font-bold text-white">
                 <div>
                     <p>Instagram</p>
                     <p>Twitter</p>
                 </div>
                 <div>
-                    <p>Kopikenangan</p>
+                    <p>kopikenangan.com</p>
                 </div>
              </div>
           </motion.div>

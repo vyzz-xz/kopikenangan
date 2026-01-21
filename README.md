@@ -84,9 +84,9 @@ Masuk ke direktori proyek:
 Install dependencies:
 
 - npm install
- **atau**
+ atau
 - yarn install
- **atau**
+ atau
 - pnpm install
 ```
 ```bash

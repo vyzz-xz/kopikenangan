@@ -1,68 +1,92 @@
-☕ Kopi Kenangan - Immersive Storytelling Experience
+# ☕ Kopi Kenangan — Storytelling Experience
 
-"Mengangkat kopi menjadi sebuah karya seni."
+> **“Mengangkat kopi menjadi sebuah karya seni.”**
 
-Sebuah konsep landing page berstandar Awwwards untuk Kopi Kenangan, menampilkan teknik scrollytelling performa tinggi, animasi 3D yang mulus, dan pengalaman digital yang mewah.
+Sebuah **konsep landing page berstandar Awwwards** untuk **Kopi Kenangan**, menampilkan teknik **scrollytelling performa tinggi**, **animasi 3D yang mulus**, dan **pengalaman digital yang mewah**.
 
-✨ Sekilas Tentang Proyek
+---
 
-Proyek ini adalah eksplorasi teknis dalam membangun website storytelling brand kelas atas. Mekanisme utamanya menggerakkan urutan gambar frame-by-frame yang terhubung langsung dengan posisi scroll pengguna, dirender menggunakan HTML5 Canvas untuk performa maksimal (60fps) dibandingkan manipulasi DOM tradisional.
+## ✨ Sekilas Tentang Proyek
 
-Filosofi desain berfokus pada "Kualitas Tinggi dengan Harga Terjangkau", diterjemahkan menjadi pengalaman digital yang terasa premium, lancar, dan interaktif.
+Proyek ini merupakan **eksplorasi teknis** dalam membangun website storytelling untuk **brand kelas atas**.
 
-🚀 Fitur Utama
+Mekanisme utama proyek ini adalah menggerakkan **urutan gambar frame-by-frame** yang terhubung langsung dengan **posisi scroll pengguna**, kemudian dirender menggunakan **HTML5 Canvas** untuk mencapai performa maksimal (**60fps**), dibandingkan manipulasi DOM tradisional.
 
-🎞️ Canvas Sequence Scroll: Mesin SequenceScroll kustom yang memetakan progres scroll ke frame gambar, memastikan pemutaran animasi yang mulus tanpa masalah buffering video.
+Filosofi desain berfokus pada:
 
-🌊 Lenis Smooth Scroll: Terintegrasi dengan Lenis untuk pengalaman scrolling yang sangat halus (buttery-smooth), meniru nuansa web desain mewah.
+> **“Kualitas Tinggi dengan Harga Terjangkau”**
 
-⚡ Optimasi Performa: Menggunakan HTML5 Canvas untuk menggambar (draw) gambar, mencegah beban berlebih pada DOM saat menangani ratusan frame urutan gambar.
+yang diterjemahkan menjadi pengalaman digital yang terasa **premium, lancar, dan interaktif**.
 
-🎨 UI Interaktif:
+---
 
-Magnetic Buttons: Tombol CTA yang secara magnetis mengikuti pergerakan kursor mouse.
+## 🚀 Fitur Utama
 
-Text Reveals: Animasi teks per karakter yang muncul seiring scroll.
+### 🎞️ Canvas Sequence Scroll
+Mesin **SequenceScroll kustom** yang memetakan progres scroll ke frame gambar, memastikan pemutaran animasi:
+- Mulus dan stabil
+- Tanpa buffering seperti video
+- Responsif terhadap interaksi pengguna
 
-Bento Grids: Tata letak modern untuk menampilkan fitur dan statistik pencapaian.
+### 🌊 Lenis Smooth Scroll
+Terintegrasi dengan **Lenis** untuk menciptakan pengalaman scrolling yang:
+- Sangat halus (*buttery-smooth*)
+- Meniru nuansa web desain mewah
 
-📱 Responsif Penuh: Skala yang dioptimalkan untuk tampilan seluler (mobile), tablet, dan desktop.
+### ⚡ Optimasi Performa
+- Menggunakan **HTML5 Canvas API** untuk menggambar (draw) gambar
+- Mencegah beban berlebih pada DOM
+- Efisien saat menangani ratusan frame urutan gambar
 
-🛠️ Teknologi (Tech Stack)
+### 🎨 UI Interaktif
+- **Magnetic Buttons** — tombol CTA yang mengikuti pergerakan kursor
+- **Text Reveals** — animasi teks per karakter saat scroll
+- **Bento Grids** — tata letak modern untuk fitur dan statistik
 
-Framework: Next.js 15 (App Router)
+### 📱 Responsif Penuh
+Dioptimalkan untuk tampilan:
+- Mobile
+- Tablet
+- Desktop
 
-Bahasa: TypeScript
+---
 
-Styling: Tailwind CSS v4
+## 🛠️ Teknologi (Tech Stack)
 
-Animasi: Motion & GSAP
+- Framework: Next.js 15 (App Router)
 
-Scroll: Lenis
+- Bahasa: TypeScript
 
-Rendering: HTML5 Canvas API
+- Styling: Tailwind CSS v4
 
-💻 Cara Menjalankan (Installation)
+- Animasi: Motion & GSAP
 
-Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal komputer Anda:
+- Scroll: Lenis
 
-Clone repositori ini:
+- Rendering: HTML5 Canvas API
 
-git clone [https://github.com/vyzz-xz/kopikenangan.git]
+---
+
+## 💻 Cara Menjalankan (Installation)
+
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal komputer Anda.
+
+### 1. Clone Repository
+```bash
+- git clone https://github.com/vyzz-xz/kopikenangan.git
+
+- Masuk ke direktori proyek:
+
+- cd kopikenangan
 
 
-Masuk ke direktori proyek:
+### Install dependencies:
 
-cd kopikenangan
+- npm install
 
+- yarn install
 
-Install dependencies:
-
-npm install
-# atau
-yarn install
-# atau
-pnpm install
+- pnpm install
 
 
 Jalankan server pengembangan:
@@ -82,7 +106,8 @@ Buka http://localhost:3000 di browser Anda untuk melihat hasilnya.
 
 /utils: Fungsi bantuan (helpers) untuk animasi dan logika scroll.
 
-📄 Lisensi
+
+### 📄 Lisensi
 
 Proyek ini dibuat untuk tujuan edukasi dan portofolio. Aset merek dagang adalah milik Kopi Kenangan.
 

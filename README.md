@@ -8,7 +8,7 @@ Sebuah **konsep landing page berstandar Awwwards** untuk **Kopi Kenangan**, mena
 
 ## ✨ Sekilas Tentang Proyek
 
-Proyek ini merupakan **eksplorasi teknis** dalam membangun website storytelling untuk **brand kelas atas**.
+Proyek ini merupakan **eksplorasi teknis** dalam membangun website storytelling untuk **brand coffe**.
 
 Mekanisme utama proyek ini adalah menggerakkan **urutan gambar frame-by-frame** yang terhubung langsung dengan **posisi scroll pengguna**, kemudian dirender menggunakan **HTML5 Canvas** untuk mencapai performa maksimal (**60fps**), dibandingkan manipulasi DOM tradisional.
 
@@ -57,7 +57,7 @@ Dioptimalkan untuk tampilan:
 
 - Bahasa: TypeScript
 
-- Styling: Tailwind CSS v4
+- Styling: Tailwind CSS
 
 - Animasi: Motion & GSAP
 
@@ -74,41 +74,31 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal komputer And
 ### 1. Clone Repository
 ```bash
 - git clone https://github.com/vyzz-xz/kopikenangan.git
-
-- Masuk ke direktori proyek:
+```
+```bash
+Masuk ke direktori proyek:
 
 - cd kopikenangan
-
-
-### Install dependencies:
+```
+```bash
+Install dependencies:
 
 - npm install
 
 - yarn install
 
 - pnpm install
-
-
+```
+```bash
 Jalankan server pengembangan:
 
 npm run dev
 
-
 Buka http://localhost:3000 di browser Anda untuk melihat hasilnya.
-
-📂 Struktur Proyek
-
-/app: Halaman utama dan layout (Next.js App Router).
-
-/components: Komponen UI modular (Navbar, SequenceScroll, TextReveal).
-
-/public/sequence: Aset gambar urutan frame untuk animasi canvas.
-
-/utils: Fungsi bantuan (helpers) untuk animasi dan logika scroll.
-
+```
 
 ### 📄 Lisensi
 
 Proyek ini dibuat untuk tujuan edukasi dan portofolio. Aset merek dagang adalah milik Kopi Kenangan.
 
-Dibuat dengan ☕ dan ❤️ oleh [Nama Anda].
+By Muhamad Hafiz

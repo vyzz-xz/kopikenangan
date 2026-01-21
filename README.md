@@ -39,9 +39,9 @@ Terintegrasi dengan **Lenis** untuk menciptakan pengalaman scrolling yang:
 - Efisien saat menangani ratusan frame urutan gambar
 
 ### 🎨 UI Interaktif
-- **Magnetic Buttons** — tombol CTA yang mengikuti pergerakan kursor
-- **Text Reveals** — animasi teks per karakter saat scroll
-- **Bento Grids** — tata letak modern untuk fitur dan statistik
+- **Magnetic Buttons** : tombol CTA yang mengikuti pergerakan kursor
+- **Text Reveals** : animasi teks per karakter saat scroll
+- **Bento Grids** : tata letak modern untuk fitur dan statistik
 
 ### 📱 Responsif Penuh
 Dioptimalkan untuk tampilan:
@@ -53,7 +53,7 @@ Dioptimalkan untuk tampilan:
 
 ## 🛠️ Teknologi (Tech Stack)
 
-- Framework: Next.js 15 (App Router)
+- Framework: Next.js 16 (App Router)
 
 - Bahasa: TypeScript
 
@@ -71,7 +71,7 @@ Dioptimalkan untuk tampilan:
 
 Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal komputer Anda.
 
-### 1. Clone Repository
+### Clone Repository
 ```bash
 - git clone https://github.com/vyzz-xz/kopikenangan.git
 ```
@@ -84,9 +84,9 @@ Masuk ke direktori proyek:
 Install dependencies:
 
 - npm install
-
+ **atau**
 - yarn install
-
+ **atau**
 - pnpm install
 ```
 ```bash

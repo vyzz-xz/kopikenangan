@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+☕ Kopi Kenangan - Immersive Storytelling Experience
 
-## Getting Started
+"Mengangkat kopi menjadi sebuah karya seni."
 
-First, run the development server:
+Sebuah konsep landing page berstandar Awwwards untuk Kopi Kenangan, menampilkan teknik scrollytelling performa tinggi, animasi 3D yang mulus, dan pengalaman digital yang mewah.
 
-```bash
+✨ Sekilas Tentang Proyek
+
+Proyek ini adalah eksplorasi teknis dalam membangun website storytelling brand kelas atas. Mekanisme utamanya menggerakkan urutan gambar frame-by-frame yang terhubung langsung dengan posisi scroll pengguna, dirender menggunakan HTML5 Canvas untuk performa maksimal (60fps) dibandingkan manipulasi DOM tradisional.
+
+Filosofi desain berfokus pada "Kualitas Tinggi dengan Harga Terjangkau", diterjemahkan menjadi pengalaman digital yang terasa premium, lancar, dan interaktif.
+
+🚀 Fitur Utama
+
+🎞️ Canvas Sequence Scroll: Mesin SequenceScroll kustom yang memetakan progres scroll ke frame gambar, memastikan pemutaran animasi yang mulus tanpa masalah buffering video.
+
+🌊 Lenis Smooth Scroll: Terintegrasi dengan Lenis untuk pengalaman scrolling yang sangat halus (buttery-smooth), meniru nuansa web desain mewah.
+
+⚡ Optimasi Performa: Menggunakan HTML5 Canvas untuk menggambar (draw) gambar, mencegah beban berlebih pada DOM saat menangani ratusan frame urutan gambar.
+
+🎨 UI Interaktif:
+
+Magnetic Buttons: Tombol CTA yang secara magnetis mengikuti pergerakan kursor mouse.
+
+Text Reveals: Animasi teks per karakter yang muncul seiring scroll.
+
+Bento Grids: Tata letak modern untuk menampilkan fitur dan statistik pencapaian.
+
+📱 Responsif Penuh: Skala yang dioptimalkan untuk tampilan seluler (mobile), tablet, dan desktop.
+
+🛠️ Teknologi (Tech Stack)
+
+Framework: Next.js 15 (App Router)
+
+Bahasa: TypeScript
+
+Styling: Tailwind CSS v4
+
+Animasi: Motion & GSAP
+
+Scroll: Lenis
+
+Rendering: HTML5 Canvas API
+
+💻 Cara Menjalankan (Installation)
+
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal komputer Anda:
+
+Clone repositori ini:
+
+git clone [https://github.com/vyzz-xz/kopikenangan.git]
+
+
+Masuk ke direktori proyek:
+
+cd kopikenangan
+
+
+Install dependencies:
+
+npm install
+# atau
+yarn install
+# atau
+pnpm install
+
+
+Jalankan server pengembangan:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Buka http://localhost:3000 di browser Anda untuk melihat hasilnya.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📂 Struktur Proyek
 
-## Learn More
+/app: Halaman utama dan layout (Next.js App Router).
 
-To learn more about Next.js, take a look at the following resources:
+/components: Komponen UI modular (Navbar, SequenceScroll, TextReveal).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+/public/sequence: Aset gambar urutan frame untuk animasi canvas.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+/utils: Fungsi bantuan (helpers) untuk animasi dan logika scroll.
 
-## Deploy on Vercel
+📄 Lisensi
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Proyek ini dibuat untuk tujuan edukasi dan portofolio. Aset merek dagang adalah milik Kopi Kenangan.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Dibuat dengan ☕ dan ❤️ oleh [Nama Anda].

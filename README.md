@@ -1,4 +1,4 @@
-# ☕ Kopi Kenangan — Storytelling Experience
+# ☕ Kopi Kenangan — Scrollytelling Experience
 
 > **“Mengangkat kopi menjadi sebuah karya seni.”**
 

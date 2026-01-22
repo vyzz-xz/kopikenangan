@@ -156,30 +156,27 @@ function OverlayContent({ scrollYProgress }: { scrollYProgress: any }) {
         <div className="pointer-events-none absolute inset-0 z-10 flex flex-col justify-center items-center h-full w-full">
             {/* Title */}
             <motion.div style={{ opacity: opacity1, y: y1 }} className="absolute text-center max-w-5xl px-4">
-                <h1 className="text-4xl md:text-8xl font-bold tracking-tighter text-white mb-4 uppercase">Kopi Kenangan</h1>
+                <h1 className="text-4xl md:text-8xl font-extrabold tracking-[-3] md:tracking-[-7] text-white mb-4 uppercase">Kopi Kenangan</h1>
                 <p className="text-1xl md:text-2xl font-light italic text-white/80">Memberikan kenangan setiap hari</p>
             </motion.div>
 
             {/* Slogan Left */}
             <motion.div style={{ opacity: opacity2, x: 0 }} className="absolute left-10 md:left-32 max-w-lg">
                  <h2 className="text-4xl md:text-6xl font-bold italic leading-tight text-white drop-shadow-lg">
-                    Dibuat dari <span className="text-[#c29e75]">Biji Pilihan</span>.
+                    Dibuat dari <span className="text-amber-500">Biji Pilihan.</span>
                  </h2>
             </motion.div>
 
             {/* Slogan Right */}
              <motion.div style={{ opacity: opacity3, x: 0 }} className="absolute right-10 md:right-32 max-w-lg text-right">
                  <h2 className="text-4xl md:text-6xl font-bold italic leading-tight text-white drop-shadow-lg">
-                    Dipanggang <span className="text-[#c29e75]">Sempurna</span>.
+                    Dipanggang <span className="text-amber-500">Sempurna.</span>
                  </h2>
             </motion.div>
 
             {/* CTA */}
              <motion.div style={{ opacity: opacity4, scale: scale4 }} className="absolute text-center pointer-events-auto">
-                 <h2 className="text-5xl md:text-7xl font-bold italic mb-8 text-white">Rasakan Perbedaannya</h2>
-                 <button className="px-10 py-4 bg-[#c29e75] text-[#1a1110] text-xl font-bold rounded-full hover:bg-[#d4b088] transition-colors transform hover:scale-105 active:scale-95 shadow-xl">
-                    Pesan Sekarang
-                 </button>
+                 <h2 className="text-5xl md:text-7xl font-bold italic mb-8 text-white">Rasakan <span className="text-amber-500">Perbedaannya.</span></h2>
             </motion.div>
         </div>
     )

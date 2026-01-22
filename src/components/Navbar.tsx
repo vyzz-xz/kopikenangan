@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-6 text-white">
-        <div className="text-xl font-bold tracking-tighter relative z-50">Kopi Kenangan</div>
+        <div className="text-xl font-extrabold tracking-tighter uppercase cursor-pointer relative z-50">Kopi Kenangan.</div>
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="relative z-50 p-2 hover:scale-110 transition-transform"
@@ -45,7 +45,7 @@ export default function Navbar() {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed inset-0 z-40 bg-black flex items-center justify-center text-[#1a1110]"
+            className="fixed inset-0 z-40 bg-black flex items-center justify-center text-white"
           >
              <nav className="flex flex-col items-center gap-8">
                 {navLinks.map((link, i) => (
@@ -55,7 +55,7 @@ export default function Navbar() {
                         initial={{ y: 80, opacity: 0 }}
                         animate={{ y: 0, opacity: 1, transition: { delay: 0.1 * i + 0.3 } }}
                         exit={{ y: 80, opacity: 0, transition: { duration: 0.3 } }}
-                        className="text-6xl md:text-8xl font-bold tracking-tighter hover:text-white transition-colors"
+                        className="text-6xl md:text-8xl font-bold tracking-tighter hover:text-amber-500 transition-colors"
                         onClick={() => setIsOpen(false)}
                     >
                         {link.name}
@@ -66,7 +66,7 @@ export default function Navbar() {
              <div className="absolute bottom-10 w-full px-10 flex justify-between text-lg cursor-pointer font-bold text-white">
                 <div>
                     <p>Instagram</p>
-                    <p>Twitter</p>
+                    <p>Tiktok</p>
                 </div>
                 <div>
                     <p>kopikenangan.com</p>

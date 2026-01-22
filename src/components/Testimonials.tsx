@@ -13,12 +13,12 @@ const testimonials = [
   {
     text: "Gula arennya itu lho, beda dari yang lain! 'Kopi Kenangan Mantan' selalu jadi mood booster andalan kalau lagi lembur di kantor.",
     author: "Sarah Amalia",
-    role: "Pelanggan",
+    role: "Customer",
   },
   {
     text: "Akhirnya nemu juga kopi yang rasanya premium tapi nggak bikin kantong mahasiswa bolong. Tempatnya juga asik buat ngerjain tugas.",
-    author: "Dimas Anggara",
-    role: "Mahasiswa",
+    author: "Zayyid Hasani",
+    role: "Mahasiswa Teknik",
   },
 ];
 
@@ -29,7 +29,7 @@ export default function Testimonials() {
   const prev = () => setIndex((i) => (i === 0 ? testimonials.length - 1 : i - 1));
 
   return (
-    <section className="relative h-screen flex items-center justify-center bg-black text-white overflow-hidden">
+    <section className="relative h-screen flex items-center justify-center bg-black text-white border-t border-white/10 overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
         
         <div className="max-w-5xl px-4 text-center z-10">
@@ -41,8 +41,8 @@ export default function Testimonials() {
                     exit={{ opacity: 0, scale: 1.1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <p className="text-3xl md:text-5xl font-medium leading-tight tracking-[-2] mb-10">"{testimonials[index].text}"</p>
-                    <div className="text-xl font-bold tracking-none gap-2 flex flex-col">
+                    <p className="text-3xl md:text-6xl font-semibold leading-tight tracking-[-2] mb-10">"{testimonials[index].text}"</p>
+                    <div className="text-2xl font-bold tracking-none gap-2 flex flex-col">
                         <span>{testimonials[index].author}</span>
                         <span className="opacity-60 text-sm">{testimonials[index].role}</span>
                     </div>
@@ -50,8 +50,8 @@ export default function Testimonials() {
             </AnimatePresence>
 
             <div className="flex gap-4 justify-center mt-20">
-                <button onClick={prev} className="p-4 rounded-full border border-[#1a1110] hover:bg-[#1a1110] hover:text-white transition-colors"><ArrowLeft /></button>
-                <button onClick={next} className="p-4 rounded-full border border-[#1a1110] hover:bg-[#1a1110] hover:text-white transition-colors"><ArrowRight /></button>
+                <button onClick={prev} className="p-4 rounded-full border border-[#1a1110] hover:bg-amber-500 hover:text-white transition-colors"><ArrowLeft /></button>
+                <button onClick={next} className="p-4 rounded-full border border-[#1a1110] hover:bg-amber-500 hover:text-white transition-colors"><ArrowRight /></button>
             </div>
         </div>
     </section>

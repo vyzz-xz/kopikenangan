@@ -25,9 +25,9 @@ export default function Preloader() {
                 <motion.h1 
                     initial={{ y: "100%" }}
                     animate={{ y: 0, transition: { duration: 0.8, delay: 0.2, ease: [0.76, 0, 0.24, 1] } }}
-                    className="text-5xl md:text-9xl font-bold tracking-tighter"
+                    className="text-3xl md:text-8xl font-bold italic tracking-tighter"
                 >
-                    Kopi Kenangan...
+                    Collecting memories... 
                 </motion.h1>
             </div>
         </motion.div>

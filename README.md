@@ -1,4 +1,4 @@
-# ☕ Kopi Kenangan — Scrollytelling Experience
+# ☕ Kopi Kenangan — Scrollytelling Landing Page
 
 > **“Mengangkat kopi menjadi sebuah karya seni.”**
 
@@ -84,10 +84,6 @@ Masuk ke direktori proyek:
 Install dependencies:
 
 - npm install
- atau
-- yarn install
- atau
-- pnpm install
 ```
 ```bash
 Jalankan server pengembangan:
